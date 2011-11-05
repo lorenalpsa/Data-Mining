@@ -14,6 +14,6 @@ public class Parametros {
 	public static double LIMIAR_INDIVIDUO =  0.3;
 	public static int TREINAMENTO = 238;
 	
-	public static String CAMINHO_ARQUIVO = "C:\\Users\\Amanda\\workspace\\IA\\src\\Dados\\dados.txt";
+	public static String CAMINHO_ARQUIVO = "src/Dados/dados.txt";
 
 }
