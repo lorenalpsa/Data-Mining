@@ -15,5 +15,8 @@ public class Parametros {
 	public static int TREINAMENTO = 238;
 	
 	public static String CAMINHO_ARQUIVO = "src/Dados/dados.txt";
+	
+	public static int TOUR = 3;	
 
 }
+
