@@ -25,10 +25,15 @@ public class Principal {
 		
 		
 		//Uso Torneio e Roleta
-		//TODO: Setar a avaliação nos individuos (causa do NullPointerException)
+		//TODO: Setar a avaliação nos individuos (causa do NullPointer)
+		ControlePopulacao.avaliaPopulacao(populacaoInicial, dados, 4);
 		Roleta roleta = new Roleta(populacaoInicial);
 		List<Individuo> individuosSelecionados = roleta.selecionaPais();
 		Individuo individuo = Torneio.executaTorneio(individuosSelecionados);	
+
+		
+		
+		Imprime.imprimePopulacao(populacaoInicial);
 	}
 
 }

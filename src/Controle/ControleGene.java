@@ -26,3 +26,6 @@ public class ControleGene {
 	}
 
 }
+
+
+
