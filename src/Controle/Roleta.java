@@ -20,7 +20,7 @@ public class Roleta {
 		List<Individuo> individuosSelecionados = new ArrayList<Individuo>();
 		List<Integer> casas = new ArrayList<Integer>();
 		for(int i=0; i < Parametros.TOUR; i++){
-			casas.add((int) Math.random()*100);
+			casas.add((int) (Math.random()*100));
 		}
 		for(int i=0; i< casas.size(); i++){
 			individuosSelecionados.add(achaIndividuoNaRoleta(casas.get(i)));

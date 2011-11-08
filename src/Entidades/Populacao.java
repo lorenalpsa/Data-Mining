@@ -11,7 +11,6 @@ public class Populacao {
 	
 	public void insereIndividuo(Individuo individuo, int indice)
 	{
-		//this.populacao[indice] = individuo;
 		this.populacao.add(individuo);
 	}
 	

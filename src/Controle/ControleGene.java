@@ -8,7 +8,7 @@ public class ControleGene {
 	{
 		
 		float peso = (float)(Math.random());
-		int operador = (int) ((Math.random()*Gene.OPERADORES.length));
+		int operador = (int) ((Math.random()*Parametros.OPERADORES.length));
 		int valor;
 		
 		if(indice == 10)
@@ -26,6 +26,3 @@ public class ControleGene {
 	}
 
 }
-
-
-

@@ -57,7 +57,7 @@ public class Dados {
 				if(!(atributos[33].toString().contains("?")))
 				{
 					
-					for(int j = 0; j < Parametros.GENE; j++)
+					for(int j = 0; j < 35; j++)
 					{
 						int atributo = Integer.parseInt(atributos[j]);
 						this.inserePosicao(i,j,atributo);
@@ -80,7 +80,7 @@ public class Dados {
 		for(int i = 0; i < this.tamanhoArray(); i++)
 		{
 			System.out.println("");
-			for(int j = 0; j < Parametros.GENE; j++)
+			for(int j = 0; j < 34; j++)
 				System.out.println("["+i+","+j+"] "+this.recuperaPosicao(i, j));
 		}
 	}

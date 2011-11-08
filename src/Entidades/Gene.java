@@ -3,7 +3,7 @@ package Entidades;
 
 public class Gene {
 
-	public static final String[] OPERADORES  = {"==","<",">=","!="};
+	
 	
 	public float peso;
 	public int operador;
