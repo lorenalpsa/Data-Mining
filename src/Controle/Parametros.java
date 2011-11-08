@@ -7,7 +7,7 @@ public class Parametros {
 	public static int VALOR = 3;
 	public static int VALOR_ATRIBUTO11 = 1;
 	public static int AGE = 100;
-	public static int GENE = 34;
+	public static int GENE = 35;
 	
 	
 	public static int TOTAL = 357;
